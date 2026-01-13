@@ -17,6 +17,10 @@ Power BI
 BI
 Analytics
 Excel
+VBA
+VBA
+PostgreSQL
+MySql
 Data Automation
 Git
 GitHub
