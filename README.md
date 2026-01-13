@@ -8,7 +8,8 @@ A nuvem é gerada de forma programática, reforçando o uso de Python para **aut
 
 ## 🧠 WordCloud de Tecnologias
 
-![WordCloud](Assets/wordcloud_1.png)
+![WordCloud de Tecnologias](https://raw.githubusercontent.com/rafaeldataanalytics/wordcloud_dados/main/Assets/wordcloud.png)
+
 
 ---
 
