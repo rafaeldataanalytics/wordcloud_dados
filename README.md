@@ -78,7 +78,7 @@ wc.to_file("wordcloud.png")
 
 ---
 
-````
+```
 wordcloud_dados/
 ├── Assets/
 │   ├── wordcloud_1.png
