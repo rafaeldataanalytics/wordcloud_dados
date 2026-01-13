@@ -40,7 +40,8 @@ O projeto faz parte do meu processo de evolução como **desenvolvedor back-end 
 
 ---
 
-## 🌸 Geração da WordCloud com Python
+## <img width="24" height="24" alt="image" src="https://github.com/user-attachments/assets/42cd5b62-5c85-49f9-8ab2-8c3fcef2b5e1" />
+Geração da WordCloud com Python
 
 A WordCloud é gerada a partir de um arquivo externo (`tecnologias.txt`), permitindo atualizar as palavras exibidas **sem necessidade de alterar o código**, seguindo boas práticas de desenvolvimento.
 
