@@ -73,10 +73,12 @@ plt.show()
 
 # Salva a imagem gerada em arquivo PNG
 wc.to_file("wordcloud.png")
+```
 
 
+---
 
-
+````
 wordcloud_dados/
 ├── Assets/
 │   ├── wordcloud_1.png
