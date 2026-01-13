@@ -1,8 +1,8 @@
 # ☁️ Nuvem de Palavras com Python
 
-Este projeto demonstra a criação de uma **WordCloud (nuvem de palavras)** utilizando **Python**, com foco em representar visualmente tecnologias, ferramentas e conceitos relacionados a **back-end e análise de dados**.
+Este projeto demonstra a criação de uma **WordCloud (nuvem de palavras)** utilizando **Python**, com foco na representação visual de tecnologias, ferramentas e conceitos relacionados a **Back-end** e **Análise de Dados**.
 
-A nuvem foi gerada de forma programática, reforçando o uso de Python para **automação**, **tratamento de dados** e **geração de artefatos visuais**.
+A nuvem é gerada de forma programática, reforçando o uso de Python para **automação**, **tratamento de dados** e **geração de artefatos visuais reutilizáveis**, aplicáveis em portfólio e documentação técnica.
 
 ---
 
@@ -14,12 +14,12 @@ A nuvem foi gerada de forma programática, reforçando o uso de Python para **au
 
 ## 🔍 Tecnologias e Conceitos Representados
 
-A WordCloud destaca conhecimentos como:
+A WordCloud destaca conhecimentos e práticas como:
 
-- **Python e SQL** aplicados ao desenvolvimento back-end e dados  
-- **Análise de dados** com Pandas e NumPy  
+- **Python e SQL** aplicados ao desenvolvimento back-end e análise de dados  
+- **Pandas e NumPy** para manipulação e análise de dados  
 - **ETL e automação de processos**  
-- **APIs e integração de sistemas**  
+- **APIs REST e integração de sistemas**  
 - **Web Scraping** para coleta de dados  
 - **Excel e Power BI** como apoio à análise e BI  
 - **Git e GitHub** para versionamento e organização de projetos  
@@ -28,23 +28,25 @@ A WordCloud destaca conhecimentos como:
 
 ## 🚀 Objetivo do Projeto
 
-O objetivo deste repositório é demonstrar:
-- uso prático de bibliotecas Python
-- organização de projeto
-- geração de imagens a partir de código
-- publicação profissional no GitHub
+Este repositório tem como objetivo demonstrar, de forma prática:
 
-Este projeto faz parte do meu processo de evolução como **desenvolvedor back-end com foco em dados**.
+- Uso de bibliotecas Python aplicadas a dados
+- Organização e estruturação de projetos
+- Geração de imagens a partir de código
+- Separação entre código e dados de entrada
+- Publicação profissional no GitHub
 
----
-
-## 🌸 Geração de WordCloud com Python
-
-Este projeto gera uma **WordCloud (nuvem de palavras)** a partir de um arquivo de texto (`tecnologias.txt`), permitindo atualizar facilmente as tecnologias exibidas sem alterar o código.
+O projeto faz parte do meu processo de evolução como **desenvolvedor back-end com foco em dados**.
 
 ---
 
-### 📄 Código Python
+## 🌸 Geração da WordCloud com Python
+
+A WordCloud é gerada a partir de um arquivo externo (`tecnologias.txt`), permitindo atualizar as palavras exibidas **sem necessidade de alterar o código**, seguindo boas práticas de desenvolvimento.
+
+---
+
+### 📄 Script Python
 
 ```python
 from wordcloud import WordCloud
@@ -73,12 +75,6 @@ plt.show()
 wc.to_file("wordcloud.png")
 
 
-# Salva a imagem gerada em arquivo PNG
-wc.to_file("wordcloud.png")
-
-
-```
-text ```
 wordcloud_dados/
 ├── Assets/
 │   ├── wordcloud_1.png
@@ -91,13 +87,3 @@ wordcloud_dados/
 ├── requirements.txt
 ├── tecnologias.txt
 └── wordcloud.png
-```
-### 📂 Estrutura do Projeto
-
-- **Assets/**: imagens geradas e utilizadas no README
-- **rafael.python.nuvem.palavras/**: script Python responsável por gerar a WordCloud
-- **tecnologias.txt**: arquivo de entrada com as palavras-chave
-- **wordcloud.png**: imagem final gerada pelo script
-- **requirements.txt**: dependências do projeto
-- **README.md**: documentação do projeto
-
