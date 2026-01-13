@@ -38,40 +38,39 @@ Este projeto faz parte do meu processo de evolução como **desenvolvedor back-e
 
 ---
 
-## 🛠️ Como foi gerado
+## 🌸 Geração de WordCloud com Python
 
-A WordCloud foi criada utilizando:
-- Python
-- Biblioteca `wordcloud`
-- Biblioteca `matplotlib`
+Este projeto gera uma **WordCloud (nuvem de palavras)** a partir de um arquivo de texto (`tecnologias.txt`), permitindo atualizar facilmente as tecnologias exibidas sem alterar o código.
 
-O script está disponível neste repositório para reprodução e estudo.
+---
 
+### 📄 Código Python
 
+```python
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-
 # Abre o arquivo de texto e lê todo o conteúdo
-# encoding="utf-8" evita problemas com acentos
+# encoding="utf-8" evita problemas com acentuação
 with open("tecnologias.txt", encoding="utf-8") as arquivo:
     texto = arquivo.read()
 
-
 # Cria a nuvem de palavras com configurações visuais
 wc = WordCloud(
-    width=1000,
-    height=500,
-    background_color="black",
-    colormap="viridis"
+    width=1000,               # Largura da imagem
+    height=500,               # Altura da imagem
+    background_color="black", # Cor de fundo
+    colormap="viridis"        # Paleta de cores
 ).generate(texto)
 
-
-# Exibe a nuvem de palavras
+# Exibe a WordCloud na tela
 plt.figure(figsize=(12, 6))
 plt.imshow(wc, interpolation="bilinear")
 plt.axis("off")
 plt.show()
+
+# Salva a imagem gerada em arquivo PNG
+wc.to_file("wordcloud.png")
 
 
 # Salva a imagem gerada em arquivo PNG
