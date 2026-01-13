@@ -75,6 +75,8 @@ plt.show()
 wc.to_file("wordcloud.png")
 
 
+
+
 wordcloud_dados/
 ├── Assets/
 │   ├── wordcloud_1.png
@@ -87,3 +89,16 @@ wordcloud_dados/
 ├── requirements.txt
 ├── tecnologias.txt
 └── wordcloud.png
+
+```
+
+### 📂 Estrutura do Projeto
+
+- **Assets/**: imagens geradas e utilizadas no README
+- **rafael.python.nuvem.palavras/**: script Python responsável por gerar a WordCloud
+- **tecnologias.txt**: arquivo de entrada com as palavras-chave
+- **wordcloud.png**: imagem final gerada pelo script
+- **requirements.txt**: dependências do projeto
+- **README.md**: documentação do projeto
+
+
