@@ -76,7 +76,8 @@ wc.to_file("wordcloud.png")
 # Salva a imagem gerada em arquivo PNG
 wc.to_file("wordcloud.png")
 
-```
+text
+``` 
 wordcloud_dados/
 ├── Assets/
 │   ├── wordcloud_1.png
